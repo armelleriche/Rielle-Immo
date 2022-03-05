@@ -149,7 +149,8 @@ h2 {
 }
 
 #quest{
-  margin: 300px 25px 200px 25px;
+padding : 25px 0px 25px 0px;
+margin: 300px 50px 200px 50px;
 }
 
 .box{
