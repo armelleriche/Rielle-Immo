@@ -1,0 +1,25 @@
+.banner {
+  padding: 50px 0px 25px 0px;
+  margin: 50px 0px 50px 0px;
+  background-image: url('../../images/background.jpeg');   
+  background-size: cover;
+	background-position: center;
+}
+
+.banner h1 {
+  color: #e1d4b0;
+  font-size: 50px;
+  text-align:  center;
+}
+.banner h2 {
+  color: #e1d4b0;
+  font-size: 30px;
+  font-weight: lighter;
+	opacity: 1;
+  text-align:  center;
+}
+
+.containerone{
+  padding: 0px 0px 75px 0px;
+  text-align: center;
+}

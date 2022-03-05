@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css?family=Lora:400,700|Roboto:300,400,700");
+
+
+@import url("components/avatar.css");
+@import url("components/banner.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+body {
+  font-family: 'Lora', serif;
+  font-size: 18px;
+  margin: 0px;
+}
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+a {
+  text-decoration: none;
+}
+
+h2 {
+  text-align: center;
+}
+
+.cards { 
+	background: #F0ECE3;
+	border: 2px solid  #F0ECE3;
+	margin: 50px;
+} 
+
+.structone{
+  align-items: center;
+  text-align: center;
+  margin: 200px 0px 100px 0px;
+}
+.structone img {
+  margin: 10px 100px 0px 100px;
+  width: 150px;
+  border-radius: 6px;
+  align-items: center;
+}
+@media (max-width: 2400px) {
+  .structone img{ 
+    width: 150px;
+  }
+}
+@media (max-width: 1050px) {
+  .structone img {
+    width: 100px;
+  }
+}
+@media (max-width: 925px) {
+  .structone img {
+    width: 75px;
+  }
+}
+@media (max-width: 500px) {
+  .structone img {
+    width: 50px;
+  }
+}
+
+.boxlong{
+  text-align: center;
+  padding: 50px 0px 50px 0px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  margin: 10px;
+
+}
+
+.boxlong img {
+  margin: 25px 100px 0px 100px;
+  width: 400px;
+  border-radius: 6px;
+}
+@media (max-width: 2400px) {
+  .boxlong img{ 
+    width: 400px;
+  }
+}
+@media (max-width: 1250px) {
+  .boxlong img {
+    width: 300px;
+  }
+}
+@media (max-width: 1050px) {
+  .boxlong img {
+    width: 200px;
+  }
+}
+@media (max-width: 850px) {
+  .boxlong img {
+    width: 150px;
+  }
+}
+
+.infofirst {
+  display: flex;
+  text-align: center;
+  text-align: center;
+  margin: 150px 25px 25px 25px;
+}
+
+.infofirst p {
+  text-align: center;
+  width: 450px;
+  padding: 160px 0px 160px 0px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  flex-basis: 250px;
+  flex-grow: 1;
+}
+
+.infofirst img{
+  width: 400px;
+  border-radius: 6px;
+  margin: 75px 0px 75px 25px;
+}
+
+.infosec {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  margin: 100px 25px 25px 25px;
+}
+
+.infosec p {
+  text-align: center;
+  width: 450px;
+  padding: 160px 0px 160px 0px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  flex-basis: 250px;
+  flex-grow: 1;
+}
+
+.infosec img{
+  width: 400px;
+  border-radius: 6px;
+  margin: 0px 25px 0px 25px;
+}
+
+#quest{
+  margin: 300px 25px 200px 25px;
+}
+
+.box{
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  margin: 100px;
+  flex-basis: 250px;
+  flex-grow: 1;
+}
+
+#boxpp img{
+  border-radius: 50%;
+}
